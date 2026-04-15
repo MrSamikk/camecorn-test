@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Resources — Camecorn</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;0,9..144,900;1,9..144,400;1,9..144,700&family=Outfit:wght@300;400;500;600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="noise-overlay"></div>
+
+<!-- HEADER -->
+<header class="header" id="header">
+  <div class="container nav">
+    <a href="index.html" class="logo-wrap">
+      <img src="hero-image.png" alt="Camecorn" class="logo-img">
+      <span class="logo-text">Camecorn</span>
+    </a>
+    <nav class="nav-links" id="navLinks">
+      <a href="index.html#hero" class="nav-link">Home</a>
+      <a href="index.html#services" class="nav-link">Services</a>
+      <a href="index.html#offerings" class="nav-link">Offerings</a>
+      <a href="index.html#testimonials" class="nav-link">Stories</a>
+      <a href="about.html" class="nav-link">About</a>
+      <a href="resources.html" class="nav-link active">Resources</a>
+    </nav>
+    <div class="nav-right">
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="12" cy="12" r="4"/><line x1="12" y1="2" x2="12" y2="4"/><line x1="12" y1="20" x2="12" y2="22"/>
+          <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>
+          <line x1="2" y1="12" x2="4" y2="12"/><line x1="20" y1="12" x2="22" y2="12"/>
+          <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+        </svg>
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+        </svg>
+      </button>
+    </div>
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- MOBILE MENU -->
+<div class="mobile-menu" id="mobileMenu">
+  <a href="index.html#hero">Home</a>
+  <a href="index.html#services">Services</a>
+  <a href="index.html#offerings">Offerings</a>
+  <a href="index.html#testimonials">Stories</a>
+  <a href="about.html">About</a>
+  <a href="resources.html">Resources</a>
+  <a href="index.html#cta" class="btn-primary-mobile">Join Free Class →</a>
+</div>
+
+<!-- RESOURCES HERO -->
+<section class="resources-hero">
+  <div class="container resources-hero-inner">
+    <span class="resources-hero-label reveal-up">Free Learning Hub</span>
+    <h1 class="resources-hero-heading reveal-up" data-delay="100">
+      Learn AI.<br><em>Transform</em> your business.
+    </h1>
+    <p class="resources-hero-sub reveal-up" data-delay="200">
+      Free classes, tutorials, and insights from the Camecorn YouTube channel. Watch, learn, and apply AI to your business today.
+    </p>
+    <a href="#" target="_blank" rel="noopener" class="resources-yt-subscribe reveal-up" data-delay="300">
+      <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+      Subscribe on YouTube
+    </a>
+  </div>
+</section>
+
+<!-- RESOURCES BODY -->
+<section class="resources-body">
+  <div class="container">
+
+    <div class="resources-filters reveal-up">
+      <button class="res-filter active" data-filter="all">All Content</button>
+      <button class="res-filter" data-filter="classes">Free Classes</button>
+      <button class="res-filter" data-filter="tutorials">Tutorials</button>
+      <button class="res-filter" data-filter="insights">Insights</button>
+    </div>
+
+    <!-- FREE CLASSES -->
+    <div class="resources-section-block">
+      <div class="resources-section-label">
+        <span class="res-section-tag">Free Classes</span>
+        <h2 class="res-section-heading reveal-up" data-delay="50">Live Classes and <em>Recordings</em></h2>
+        <p class="res-section-desc reveal-up" data-delay="100">Watch at your own pace and start applying AI to your business today.</p>
+      </div>
+      <div class="resources-grid">
+        <div class="res-card reveal-up" data-delay="0" data-category="classes">
+          <div class="res-video-wrap">
+            <iframe src="https://www.youtube.com/embed/VIDEO_ID_1" title="Free AI Class — Getting Started with AI for Your Business" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <div class="res-card-body">
+            <span class="res-card-tag classes">Free Class</span>
+            <h3 class="res-card-title">Getting Started with AI for Your Business</h3>
+            <p class="res-card-desc">A beginner-friendly introduction to AI — what it is, how it works, and how African businesses are already using it to grow.</p>
+            <div class="res-card-meta">
+              
+              <a href="#" target="_blank" class="res-card-yt-link">Watch on YouTube →</a>
+            </div>
+          </div>
+        </div>
+        <div class="res-card reveal-up" data-delay="100" data-category="classes">
+          <div class="res-video-wrap">
+            <iframe src="https://www.youtube.com/embed/VIDEO_ID_2" title="Free AI Class — AI Tools Every Business Owner Needs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <div class="res-card-body">
+            <span class="res-card-tag classes">Free Class</span>
+            <h3 class="res-card-title">AI Tools Every Business Owner Needs</h3>
+            <p class="res-card-desc">The essential AI tools you can start using today to save time, cut costs, and scale your business without hiring more staff.</p>
+            <div class="res-card-meta">
+              <span></span>
+              <a href="#" target="_blank" class="res-card-yt-link">Watch on YouTube →</a>
+            </div>
+          </div>
+        </div>
+        <div class="res-card reveal-up" data-delay="200" data-category="classes">
+          <div class="res-video-wrap">
+            <iframe src="https://www.youtube.com/embed/VIDEO_ID_3" title="Free AI Class — How to Automate Your Business" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <div class="res-card-body">
+            <span class="res-card-tag classes">Free Class</span>
+            <h3 class="res-card-title">How to Automate Your Business with AI</h3>
+            <p class="res-card-desc">Step-by-step walkthrough on identifying, building, and deploying your first AI workflow — even with zero technical background.</p>
+            <div class="res-card-meta">
+              <span></span>
+              <a href="#" target="_blank" class="res-card-yt-link">Watch on YouTube →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- TUTORIALS -->
+    <div class="resources-section-block">
+      <div class="resources-section-label">
+        <span class="res-section-tag">Tutorials</span>
+        <h2 class="res-section-heading reveal-up" data-delay="50">Step-by-Step <em>Tutorials</em></h2>
+        <p class="res-section-desc reveal-up" data-delay="100">Practical, hands-on tutorials covering AI tools and workflows.</p>
+      </div>
+      <div class="resources-grid">
+        <div class="res-card reveal-up" data-delay="0" data-category="tutorials">
+          <div class="res-video-wrap">
+            <iframe src="https://www.youtube.com/embed/VIDEO_ID_4" title="Tutorial — Build Your First AI Agent" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <div class="res-card-body">
+            <span class="res-card-tag tutorials">Tutorial</span>
+            <h3 class="res-card-title">Build Your First AI Agent from Scratch</h3>
+            <p class="res-card-desc">Watch us build a custom AI agent trained on a real business — step by step, from setup to deployment. No coding required.</p>
+            <div class="res-card-meta">
+              <span>🕒 Add duration</span>
+              <a href="#" target="_blank" class="res-card-yt-link">Watch on YouTube →</a>
+            </div>
+          </div>
+        </div>
+        <div class="res-card reveal-up" data-delay="100" data-category="tutorials">
+          <div class="res-video-wrap">
+            <iframe src="https://www.youtube.com/embed/VIDEO_ID_5" title="Tutorial — Create Content with AI in Minutes" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <div class="res-card-body">
+            <span class="res-card-tag tutorials">Tutorial</span>
+            <h3 class="res-card-title">Create a Week of Content with AI in 30 Minutes</h3>
+            <p class="res-card-desc">Exactly how to use AI to produce social media posts, captions, and videos — fast and consistently.</p>
+            <div class="res-card-meta">
+              <span>🕒 Add duration</span>
+              <a href="#" target="_blank" class="res-card-yt-link">Watch on YouTube →</a>
+            </div>
+          </div>
+        </div>
+        <div class="res-card reveal-up" data-delay="200" data-category="tutorials">
+          <div class="res-video-wrap">
+            <iframe src="https://www.youtube.com/embed/VIDEO_ID_6" title="Tutorial — Email Automation for Small Business" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <div class="res-card-body">
+            <span class="res-card-tag tutorials">Tutorial</span>
+            <h3 class="res-card-title">Set Up Email Automation for Your Business</h3>
+            <p class="res-card-desc">Build an automated email sequence that nurtures leads, onboards clients, and follows up — running in the background 24/7.</p>
+            <div class="res-card-meta">
+              <span>🕒 Add duration</span>
+              <a href="#" target="_blank" class="res-card-yt-link">Watch on YouTube →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- INSIGHTS -->
+    <div class="resources-section-block">
+      <div class="resources-section-label">
+        <span class="res-section-tag">Insights</span>
+        <h2 class="res-section-heading reveal-up" data-delay="50">AI Insights &amp; <em>Business Tips</em></h2>
+        <p class="res-section-desc reveal-up" data-delay="100">Short-form insights on AI trends, business strategy, and staying ahead.</p>
+      </div>
+      <div class="resources-grid">
+        <div class="res-card reveal-up" data-delay="0" data-category="insights">
+          <div class="res-video-wrap">
+            <iframe src="https://www.youtube.com/embed/VIDEO_ID_7" title="Insight — Why AI is Not Optional for African Businesses" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <div class="res-card-body">
+            <span class="res-card-tag insights">Insight</span>
+            <h3 class="res-card-title">Why AI is No Longer Optional for African Businesses</h3>
+            <p class="res-card-desc">The businesses that will dominate the next decade are already using AI. The window to adopt early is still open — but closing fast.</p>
+            <div class="res-card-meta">
+              <span>🕒 Add duration</span>
+              <a href="#" target="_blank" class="res-card-yt-link">Watch on YouTube →</a>
+            </div>
+          </div>
+        </div>
+        <div class="res-card reveal-up" data-delay="100" data-category="insights">
+          <div class="res-video-wrap">
+            <iframe src="https://www.youtube.com/embed/VIDEO_ID_8" title="Insight — 5 Ways AI Saves You Money" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <div class="res-card-body">
+            <span class="res-card-tag insights">Insight</span>
+            <h3 class="res-card-title">5 Ways AI Can Reduce Your Business Costs Right Now</h3>
+            <p class="res-card-desc">From customer support to content creation — five practical areas where AI cuts operational costs without cutting quality.</p>
+            <div class="res-card-meta">
+              <span>🕒 Add duration</span>
+              <a href="#" target="_blank" class="res-card-yt-link">Watch on YouTube →</a>
+            </div>
+          </div>
+        </div>
+        <div class="res-card reveal-up" data-delay="200" data-category="insights">
+          <div class="res-video-wrap">
+            <iframe src="https://www.youtube.com/embed/VIDEO_ID_9" title="Insight — The AI Skill Gap in Africa" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <div class="res-card-body">
+            <span class="res-card-tag insights">Insight</span>
+            <h3 class="res-card-title">The AI Skill Gap in Africa — and How to Bridge It</h3>
+            <p class="res-card-desc">Africa has an enormous opportunity in AI adoption. We break down the gap and exactly how Camecorn is helping close it.</p>
+            <div class="res-card-meta">
+              <span>🕒 Add duration</span>
+              <a href="#" target="_blank" class="res-card-yt-link">Watch on YouTube →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- CTA STRIP -->
+<section class="about-cta-strip">
+  <div class="container reveal-up">
+    <h2>Want to learn more <em>in person?</em></h2>
+    <p>Join our live AI classes — free to attend, immediately applicable, and built for African business owners.</p>
+    <div style="display:flex;justify-content:center;gap:14px;flex-wrap:wrap;">
+      <a href="index.html#cta" class="btn-primary magnetic" data-magnetic>
+        Join Free Class
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      </a>
+      <a href="index.html#services" class="btn-ghost magnetic" data-magnetic>Our Services</a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container footer-inner">
+    <div class="footer-brand">
+      <img src="hero-image.png" alt="Camecorn" style="width:44px;opacity:0.85;">
+      <span class="logo-text">Camecorn</span>
+      <p>Empowering African businesses with AI-powered solutions, skills, and education.</p>
+    </div>
+    <div class="footer-links">
+      <div class="footer-col">
+        <strong>Company</strong>
+        <a href="about.html">About Us</a>
+        <a href="#">Our Team</a>
+        <a href="#">Careers</a>
+        <a href="#">Blog</a>
+      </div>
+      <div class="footer-col">
+        <strong>Services</strong>
+        <a href="index.html#services">AI Education</a>
+        <a href="index.html#services">AI Training</a>
+        <a href="index.html#services">AI Solutions</a>
+        <a href="#">Consulting</a>
+      </div>
+      <div class="footer-col">
+        <strong>Connect</strong>
+        <a href="#">Instagram</a>
+        <a href="#">LinkedIn</a>
+        <a href="#">Twitter / X</a>
+        <a href="resources.html">YouTube Classes</a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom container">
+    <p>© 2026 Camecorn. All rights reserved.</p>
+    <p>Built with ❤ for Africa.</p>
+  </div>
+</footer>
+
+<!-- CHATBOT — icon only -->
+<div class="chatbot-trigger" id="chatbotTrigger" aria-label="Open AI Assistant">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" class="chat-icon-open">
+    <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+    <circle cx="9" cy="10" r="1" fill="currentColor"/>
+    <circle cx="12" cy="10" r="1" fill="currentColor"/>
+    <circle cx="15" cy="10" r="1" fill="currentColor"/>
+  </svg>
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="chat-icon-close" style="display:none">
+    <line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/>
+  </svg>
+</div>
+
+<div class="chatbot-window" id="chatbotWindow">
+  <div class="chatbot-header">
+    <div class="chatbot-header-info">
+      <div class="chatbot-avatar">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="20" height="20">
+          <rect x="3" y="11" width="18" height="10" rx="2"/>
+          <path d="M9 11V7a3 3 0 0 1 6 0v4"/>
+          <circle cx="12" cy="16" r="1" fill="currentColor"/>
+        </svg>
+      </div>
+      <div>
+        <strong>Camecorn AI</strong>
+        <span class="chatbot-status"><span class="chatbot-status-dot"></span> Online</span>
+      </div>
+    </div>
+    <button class="chatbot-close" id="chatbotClose" aria-label="Close chat">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16">
+        <line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/>
+      </svg>
+    </button>
+  </div>
+  <div class="chatbot-messages" id="chatbotMessages">
+    <div class="chat-msg bot">
+      <div class="chat-bubble">Hello! 👋 I'm Camecorn's AI assistant. Ask me anything about our services, training programs, or how we can grow your business.</div>
+    </div>
+    <div class="chat-quick-replies" id="quickReplies">
+      <button class="quick-reply" data-msg="What services do you offer?">Our Services</button>
+      <button class="quick-reply" data-msg="Tell me about AI training programs">AI Training</button>
+      <button class="quick-reply" data-msg="How much does it cost?">Pricing</button>
+      <button class="quick-reply" data-msg="How do I get started?">Get Started</button>
+    </div>
+  </div>
+  <div class="chatbot-input-area">
+    <input type="text" class="chatbot-input" id="chatbotInput" placeholder="Ask me anything…" autocomplete="off">
+    <button class="chatbot-send" id="chatbotSend" aria-label="Send">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16">
+        <line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/>
+      </svg>
+    </button>
+  </div>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>

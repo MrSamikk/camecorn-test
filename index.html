@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Camecorn — AI-Powered Solutions for African Businesses</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;0,9..144,900;1,9..144,400;1,9..144,700&family=Outfit:wght@300;400;500;600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="noise-overlay"></div>
+
+<!-- HEADER -->
+<header class="header" id="header">
+  <div class="container nav">
+    <a href="index.html" class="logo-wrap">
+      <img src="hero-image.png" alt="Camecorn" class="logo-img">
+      <span class="logo-text">Camecorn</span>
+    </a>
+    <nav class="nav-links" id="navLinks">
+      <a href="#hero" class="nav-link">Home</a>
+      <a href="#services" class="nav-link">Services</a>
+      <a href="#offerings" class="nav-link">Offerings</a>
+      <a href="#testimonials" class="nav-link">Stories</a>
+      <a href="about.html" class="nav-link">About</a>
+      <a href="resources.html" class="nav-link">Resources</a>
+    </nav>
+    <div class="nav-right">
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="12" cy="12" r="4"/><line x1="12" y1="2" x2="12" y2="4"/><line x1="12" y1="20" x2="12" y2="22"/>
+          <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>
+          <line x1="2" y1="12" x2="4" y2="12"/><line x1="20" y1="12" x2="22" y2="12"/>
+          <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+        </svg>
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+        </svg>
+      </button>
+    </div>
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- MOBILE MENU -->
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#hero">Home</a>
+  <a href="#services">Services</a>
+  <a href="#offerings">Offerings</a>
+  <a href="#testimonials">Stories</a>
+  <a href="about.html">About</a>
+  <a href="resources.html">Resources</a>
+  <a href="#cta" class="btn-primary-mobile">Join Free Class →</a>
+</div>
+
+<!-- HERO -->
+<section class="hero-section" id="hero">
+  <div class="embers" id="embers"></div>
+
+  <div class="hero-grid-lines">
+    <div class="hgl hgl-v1"></div>
+    <div class="hgl hgl-v2"></div>
+    <div class="hgl hgl-h1"></div>
+    <div class="hgl hgl-h2"></div>
+  </div>
+
+  <div class="hero-watermark" aria-hidden="true">CAMECORN</div>
+
+  <div class="container hero-inner-text">
+
+    
+
+    <h1 class="hero-heading reveal-up" data-delay="100">
+      Empowering <em>African Businesses</em><br>
+      with AI-Powered <em>Solutions,
+      Skills and Knowledge.</em>
+    </h1>
+
+    <!-- Brand / Scale / Position centred under headline -->
+    <div class="hero-pillars reveal-up" data-delay="220">
+      <div class="hero-pill brand">
+        <span class="pdot"></span> Brand
+      </div>
+      <div class="hero-pill-divider"></div>
+      <div class="hero-pill scale">
+        <span class="pdot"></span> Scale
+      </div>
+      <div class="hero-pill-divider"></div>
+      <div class="hero-pill pos">
+        <span class="pdot"></span> Position
+      </div>
+    </div>
+
+    <p class="hero-sub reveal-up" data-delay="320">
+      We build, train, and deploy AI Assistants directly inside your business that helps you increase productivity at a lesser cost with excellence.
+    </p>
+
+  </div>
+
+  <div class="hero-corner hero-corner-tr" aria-hidden="true">
+    <svg viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M80 0 L80 80 L0 80" stroke="currentColor" stroke-width="1" opacity="0.2"/>
+      <circle cx="60" cy="20" r="12" stroke="currentColor" stroke-width="0.8" opacity="0.18"/>
+      <circle cx="60" cy="20" r="6" stroke="currentColor" stroke-width="0.8" opacity="0.25"/>
+      <circle cx="60" cy="20" r="2" fill="currentColor" opacity="0.3"/>
+    </svg>
+  </div>
+  <div class="hero-corner hero-corner-bl" aria-hidden="true">
+    <svg viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 80 L80 80 L80 0" stroke="currentColor" stroke-width="1" opacity="0.2"/>
+      <line x1="0" y1="40" x2="40" y2="40" stroke="currentColor" stroke-width="0.8" opacity="0.2"/>
+      <line x1="40" y1="80" x2="40" y2="40" stroke="currentColor" stroke-width="0.8" opacity="0.2"/>
+    </svg>
+  </div>
+</section>
+
+<!-- MARQUEE TICKER -->
+<div class="marquee-wrap">
+  <div class="marquee-track">
+    <span>Brand Premium</span><span class="dot">◆</span>
+    <span>AI Automation</span><span class="dot">◆</span>
+    <span>Business Growth</span><span class="dot">◆</span>
+    <span>AI Education</span><span class="dot">◆</span>
+    <span>Scale Fast</span><span class="dot">◆</span>
+    <span>Automate Tasks</span><span class="dot">◆</span>
+    <span>Innovate with AI</span><span class="dot">◆</span>
+    <span>Position Visibly</span><span class="dot">◆</span>
+    <span>AI Training</span><span class="dot">◆</span>
+    <span>Scale Fast</span><span class="dot">◆</span>
+    <span>Innovate with AI</span><span class="dot">◆</span>
+    <span>Brand Premium</span><span class="dot">◆</span>
+  </div>
+</div>
+
+<!-- PILLARS -->
+<section class="section pillars-section" id="pillars">
+  <div class="container">
+    <div class="section-label reveal-up">What We Will Do For Your Business</div>
+    <h2 class="section-heading reveal-up" data-delay="100">Three Goals <em>Just For Your Business</em></h2>
+    <div class="pillars-grid">
+      <div class="pillar-card reveal-up" data-delay="0">
+        <div class="pillar-num">01</div>
+        <div class="pillar-icon">◈</div>
+        <h3>Brand</h3>
+        <p>A strong brand is one of the most valuable assets a business can own. Camecorn helps you build a professional, consistent, and compelling brand identity that communicates credibility, earns trust, and creates a lasting impression across every platform and every customer interaction.</p>
+        <div class="pillar-arrow">→</div>
+      </div>
+      <div class="pillar-card reveal-up" data-delay="150">
+        <div class="pillar-num">02</div>
+        <div class="pillar-icon">◉</div>
+        <h3>Scale</h3>
+        <p>Growth should not be limited by the capacity of your team or the hours in a day. Through AI-powered systems, intelligent automation, and optimized workflows, Camecorn enables your business to increase output, reduce operational costs, and expand without a proportional increase in overhead.</p>
+        <div class="pillar-arrow">→</div>
+      </div>
+      <div class="pillar-card reveal-up" data-delay="300">
+        <div class="pillar-num">03</div>
+        <div class="pillar-icon">◎</div>
+        <h3>Position</h3>
+        <p>Market leadership belongs to businesses that are visible, relevant, and strategically present where decisions are made. Camecorn equips your business with the tools, content, and data-driven strategies needed to reach your ideal audience and remain the preferred choice in a competitive market.</p>
+        <div class="pillar-arrow">→</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section class="section services-section" id="services">
+  <div class="container">
+    <div class="services-header">
+      <div>
+        <div class="section-label reveal-up">Our Services</div>
+        <h2 class="section-heading reveal-up" data-delay="100">We achieve this <em>through,</em></h2>
+      </div>
+      <p class="services-desc reveal-up" data-delay="200">We don't just talk about AI — we build, train, and deploy it directly inside your business.</p>
+    </div>
+    <div class="services-list">
+      <div class="service-row reveal-up" data-delay="0">
+        <div class="service-num">01</div>
+        <div class="service-content">
+          <h3>AI Education</h3>
+          <p>Through free live classes, tutorial content, and structured learning resources, we equip business owners with a clear and practical understanding of Artificial Intelligence — what it is, how it works, and how it applies directly to their industry.</p>
+        </div>
+      </div>
+      <div class="service-row reveal-up" data-delay="100">
+        <div class="service-num">02</div>
+        <div class="service-content">
+          <h3>AI Training</h3>
+          <p>Hands-on training programs for business owners and their teams covering web development, content creation, workflow automation, AI agent building, graphic design, email automation, and market analysis. Every program is practical, business-specific, and immediately applicable.</p>
+        </div>
+      </div>
+      <div class="service-row reveal-up" data-delay="200">
+        <div class="service-num">03</div>
+        <div class="service-content">
+          <h3>AI Solutions</h3>
+          <p>For businesses ready to move beyond learning and into execution, Camecorn builds and deploys complete AI-powered systems — websites, applications, automation workflows, AI agents, landing pages, digital marketing, and presentation design — all engineered to reduce manual effort and drive measurable growth.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- OFFERINGS -->
+<section class="section offerings-section" id="offerings">
+  <div class="container">
+    <div class="section-label reveal-up">WHAT WE OFFER</div>
+    <h2 class="section-heading reveal-up" data-delay="100"><em>AI Powered</em> Solutions and Trainings</h2>
+    <p class="offerings-intro reveal-up" data-delay="200">Each service and training is designed not to make your business beat competition but escape it into a class of its own.</p>
+
+    <div class="offerings-grid">
+
+      <div class="offering-row reveal-up" data-delay="0">
+        <div class="offering-content">
+          <div class="offering-tag">01</div>
+          <h3>Text and Video Content Creation</h3>
+          <p>We craft AI-powered written and video content that stops the scroll and converts. We <strong>deliver this as a done-for-you service</strong> and also <strong>train your team</strong> to produce high-impact content independently using AI tools.</p>
+        </div>
+        <div class="offering-visual">
+          <div class="offering-img-wrap">
+            <div class=>
+              <img src="content creation.webp" alt="Content Creation" class="offering-img" data-slot="1">
+              <div class="offering-img-placeholder"><span>01</span><small>Add your image</small></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="offering-row reverse reveal-up" data-delay="100">
+        <div class="offering-visual">
+          <div class="offering-img-wrap">
+            <div class=>
+              <img src="graphics-removebg-preview.png" alt="Graphic Design" class="offering-img" data-slot="2">
+              <div class="offering-img-placeholder"><span>02</span><small>Add your image</small></div>
+            </div>
+          </div>
+        </div>
+        <div class="offering-content">
+          <div class="offering-tag">02</div>
+          <h3>Graphic Designing</h3>
+          <p>Great design communicates before words do. We use AI to create brand identities, social visuals, and marketing assets at speed. Available as a <strong>done-for-you service</strong> and as a <strong>hands-on training program</strong>.</p>
+        </div>
+      </div>
+
+      <div class="offering-row reveal-up" data-delay="0">
+        <div class="offering-content">
+          <div class="offering-tag">03</div>
+          <h3>Market Analysis</h3>
+          <p>AI-powered competitor intelligence, audience behaviour, and demand mapping — giving your business clarity to move with confidence. We <strong>deliver the analysis</strong> and <strong>teach you how to run it</strong> using AI tools.</p>
+        </div>
+        <div class="offering-visual">
+          <div class="offering-img-wrap">
+            <div class=>
+              <img src="Market-Analysis-Steps-by-Adloonix-removebg-preview.png" alt="Market Analysis" class="offering-img" data-slot="3">
+              <div class="offering-img-placeholder"><span>03</span><small>Add your image</small></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="offering-row reverse reveal-up" data-delay="100">
+        <div class="offering-visual">
+          <div class="offering-img-wrap">
+            <div class=>
+              <img src="Best_Web_Designing_Company-min-removebg-preview.png" alt="Web Development" class="offering-img" data-slot="4">
+              <div class="offering-img-placeholder"><span>04</span><small>Add your image</small></div>
+            </div>
+          </div>
+        </div>
+        <div class="offering-content">
+          <div class="offering-tag">04</div>
+          <h3>Web Development</h3>
+          <p>Fast, responsive, conversion-optimised websites built with AI. Your 24/7 sales representative. We <strong>build it for you</strong> and also <strong>train your team</strong> to manage, update, and grow it independently.</p>
+        </div>
+      </div>
+
+      <div class="offering-row reveal-up" data-delay="0">
+        <div class="offering-content">
+          <div class="offering-tag">05</div>
+          <h3>AI Workflow Creation</h3>
+          <p>Intelligent workflows that automate your repetitive operations so your team focuses on what drives real value. We <strong>design and deploy the systems</strong> and <strong>train you</strong> to maintain and scale them.</p>
+        </div>
+        <div class="offering-visual">
+          <div class="offering-img-wrap">
+            <div class=>
+              <img src="workflow-removebg-preview.png" alt="AI Workflow" class="offering-img" data-slot="5">
+              <div class="offering-img-placeholder"><span>05</span><small>Add your image</small></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="offering-row reverse reveal-up" data-delay="100">
+        <div class="offering-visual">
+          <div class="offering-img-wrap">
+            <div class=>
+              <img src="unnamed__3_-removebg-preview.png" alt="AI Agent Creation" class="offering-img" data-slot="6">
+              <div class="offering-img-placeholder"><span>06</span><small>Add your image</small></div>
+            </div>
+          </div>
+        </div>
+        <div class="offering-content">
+          <div class="offering-tag">06</div>
+          <h3>AI Agent Creation</h3>
+          <p>Custom AI agents trained on your business — available 24/7 to handle enquiries, qualify leads, and assist clients. We <strong>build and deploy the agent</strong> and <strong>train your team</strong> to manage it.</p>
+        </div>
+      </div>
+
+      <div class="offering-row reveal-up" data-delay="0">
+        <div class="offering-content">
+          <div class="offering-tag">07</div>
+          <h3>Landing Pages</h3>
+          <p>AI-engineered landing pages with persuasive copy and strategic layout that turn clicks into customers. Available as a <strong>done-for-you build</strong> and as a <strong>training program</strong> so your team can build future pages.</p>
+        </div>
+        <div class="offering-visual">
+          <div class="offering-img-wrap">
+            <div class=>
+              <img src="Blog-345-How-to-Create-a-landing-page-that-sells-AUCA-removebg-preview.png" alt="Landing Pages" class="offering-img" data-slot="7">
+              <div class="offering-img-placeholder"><span>07</span><small>Add your image</small></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="offering-row reverse reveal-up" data-delay="100">
+        <div class="offering-visual">
+          <div class="offering-img-wrap">
+            <div class=>
+              <img src="email messaging.png" alt="Email Automation" class="offering-img" data-slot="8">
+              <div class="offering-img-placeholder"><span>08</span><small>Add your image</small></div>
+            </div>
+          </div>
+        </div>
+        <div class="offering-content">
+          <div class="offering-tag">08</div>
+          <h3>Messaging and Email Automations</h3>
+          <p>AI-powered email and messaging sequences that nurture leads and re-engage contacts on autopilot. We <strong>build the full system</strong> for you and <strong>train your team</strong> to manage and optimise it.</p>
+        </div>
+      </div>
+
+      <div class="offering-row reveal-up" data-delay="0">
+        <div class="offering-content">
+          <div class="offering-tag">09</div>
+          <h3>Creating Presentations</h3>
+          <p>Investor-ready, client-winning presentations crafted with AI — compelling narrative with polished visuals. We <strong>design them for you</strong> and <strong>train you</strong> to build stunning decks independently.</p>
+        </div>
+        <div class="offering-visual">
+          <div class="offering-img-wrap">
+            <div class=>
+              <img src="powerpoint-removebg-preview.png" alt="Presentations" class="offering-img" data-slot="9">
+              <div class="offering-img-placeholder"><span>09</span><small>Add your image</small></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="section testimonials-section" id="testimonials">
+  <div class="container">
+    <div class="section-label reveal-up">Client Stories</div>
+    <h2 class="section-heading reveal-up" data-delay="100">Businesses we've <em>transformed.</em></h2>
+    <div class="testimonials-grid">
+      <div class="testi-card reveal-up" data-delay="0">
+        <div class="testi-stars">★★★★★</div>
+        <blockquote>"Camecorn completely changed how we operate. Our sales pipeline runs on autopilot now."</blockquote>
+        <div class="testi-author">
+          <div class="testi-avatar">AO</div>
+          <div><strong>Adaeze Okonkwo</strong><span>CEO, LagosStyle Co.</span></div>
+        </div>
+      </div>
+      <div class="testi-card featured reveal-up" data-delay="150">
+        <div class="testi-stars">★★★★★</div>
+        <blockquote>"My business scaled 3x in four months. The AI training alone was worth every kobo."</blockquote>
+        <div class="testi-author">
+          <div class="testi-avatar">KM</div>
+          <div><strong>Kofi Mensah</strong><span>Founder, Accra Logistics</span></div>
+        </div>
+      </div>
+      <div class="testi-card reveal-up" data-delay="300">
+        <div class="testi-stars">★★★★★</div>
+        <blockquote>"I never thought AI was for me. Now I use it every single day to run my brand."</blockquote>
+        <div class="testi-author">
+          <div class="testi-avatar">FN</div>
+          <div><strong>Fatima Njoku</strong><span>Creative Director, Studio F</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="section cta-section" id="cta">
+  <div class="container">
+    <div class="cta-inner reveal-up">
+      <div class="cta-label">Ready to Begin?</div>
+      <h2 class="cta-heading">Start Building Smarter<br>with <em>AI Today.</em></h2>
+      <p>Join hundreds of African entrepreneurs who have already made the leap. Your first class is free.</p>
+      <div class="cta-actions">
+        <button class="btn-primary magnetic" data-magnetic>
+          Join Free Class
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </button>
+        <button class="btn-ghost-light magnetic" data-magnetic>Explore Services</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container footer-inner">
+    <div class="footer-brand">
+      <img src="hero-image.png" alt="Camecorn" style="width:44px;opacity:0.85;">
+      <span class="logo-text">Camecorn</span>
+      <p>Empowering African businesses with AI-powered solutions, skills, and education.</p>
+    </div>
+    <div class="footer-links">
+      <div class="footer-col">
+        <strong>Company</strong>
+        <a href="about.html">About Us</a>
+        <a href="#">Our Team</a>
+        <a href="#">Careers</a>
+        <a href="#">Blog</a>
+      </div>
+      <div class="footer-col">
+        <strong>Services</strong>
+        <a href="#services">AI Education</a>
+        <a href="#services">AI Training</a>
+        <a href="#services">AI Solutions</a>
+        <a href="#">Consulting</a>
+      </div>
+      <div class="footer-col">
+        <strong>Connect</strong>
+        <a href="#">Instagram</a>
+        <a href="#">LinkedIn</a>
+        <a href="#">Twitter / X</a>
+        <a href="resources.html">YouTube Classes</a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom container">
+    <p>© 2026 Camecorn. All rights reserved.</p>
+    <p>Built with ❤ for Africa.</p>
+  </div>
+</footer>
+
+<!-- CHATBOT — icon only -->
+<div class="chatbot-trigger" id="chatbotTrigger" aria-label="Open AI Assistant">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" class="chat-icon-open">
+    <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+    <circle cx="9" cy="10" r="1" fill="currentColor"/>
+    <circle cx="12" cy="10" r="1" fill="currentColor"/>
+    <circle cx="15" cy="10" r="1" fill="currentColor"/>
+  </svg>
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="chat-icon-close" style="display:none">
+    <line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/>
+  </svg>
+</div>
+
+<div class="chatbot-window" id="chatbotWindow">
+  <div class="chatbot-header">
+    <div class="chatbot-header-info">
+      <div class="chatbot-avatar">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="20" height="20">
+          <rect x="3" y="11" width="18" height="10" rx="2"/>
+          <path d="M9 11V7a3 3 0 0 1 6 0v4"/>
+          <circle cx="12" cy="16" r="1" fill="currentColor"/>
+        </svg>
+      </div>
+      <div>
+        <strong>Camecorn AI</strong>
+        <span class="chatbot-status"><span class="chatbot-status-dot"></span> Online</span>
+      </div>
+    </div>
+    <button class="chatbot-close" id="chatbotClose" aria-label="Close chat">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16">
+        <line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/>
+      </svg>
+    </button>
+  </div>
+  <div class="chatbot-messages" id="chatbotMessages">
+    <div class="chat-msg bot">
+      <div class="chat-bubble">Hello! 👋 I'm Camecorn's AI assistant. Ask me anything about our services, training programs, or how we can grow your business.</div>
+    </div>
+    <div class="chat-quick-replies" id="quickReplies">
+      <button class="quick-reply" data-msg="What services do you offer?">Our Services</button>
+      <button class="quick-reply" data-msg="Tell me about AI training programs">AI Training</button>
+      <button class="quick-reply" data-msg="How much does it cost?">Pricing</button>
+      <button class="quick-reply" data-msg="How do I get started?">Get Started</button>
+    </div>
+  </div>
+  <div class="chatbot-input-area">
+    <input type="text" class="chatbot-input" id="chatbotInput" placeholder="Ask me anything…" autocomplete="off">
+    <button class="chatbot-send" id="chatbotSend" aria-label="Send">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16">
+        <line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/>
+      </svg>
+    </button>
+  </div>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
