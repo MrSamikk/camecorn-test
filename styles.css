@@ -112,10 +112,10 @@ button { cursor:pointer; }
 }
 .nav {
   display:flex; align-items:center; justify-content:space-between;
-  padding: 18px 0;
+  
 }
 .logo-wrap { display:flex; align-items:center; gap:12px; }
-.logo-img { width:38px; height:auto; }
+.logo-img { width:100px; height:auto; }
 .logo-text {
   font-family: var(--font-display);
   font-size: 1.4rem; font-weight:900; color:var(--fg); letter-spacing:-0.02em;
@@ -160,22 +160,21 @@ button { cursor:pointer; }
   background:none; border:none; padding:4px;
 }
 .hamburger span {
-  display:block; width:22px; height:1.5px;
+  display:block; width:22px; height:0.5px;
   background:var(--text); transition:all 0.3s ease; transform-origin:center;
-}
-.hamburger.open span:nth-child(1) { transform:translateY(6.5px) rotate(45deg); }
+}.hamburger.open span:nth-child(1) { transform:translateY(6.5px) rotate(45deg); }
 .hamburger.open span:nth-child(2) { opacity:0; }
 .hamburger.open span:nth-child(3) { transform:translateY(-6.5px) rotate(-45deg); }
 
 /* ============ MOBILE MENU ============ */
 .mobile-menu {
   position:fixed; inset:0; background:var(--bg); z-index:900;
-  display:flex; flex-direction:column; align-items:center; justify-content:center;
-  gap:36px; opacity:0; pointer-events:none; transition:opacity 0.4s ease;
+  display:flex; flex-direction:column; align-items:center; justify-content:flex-start;
+  gap:16px; opacity:0; pointer-events:none; transition:opacity 0.4s ease; margin-top: 74px;
 }
 .mobile-menu.open { opacity:1; pointer-events:all; }
 .mobile-menu a {
-  font-family:var(--font-display); font-size:2.8rem; font-weight:900;
+  font-family:var(--font-display); font-size:0.7rem; font-weight:900;
   color:var(--fg); letter-spacing:-0.02em; transition:color 0.3s;
 }
 .mobile-menu a:hover { color:var(--accent); }
@@ -255,10 +254,10 @@ button { cursor:pointer; }
   50%      { transform:scale(1.8); opacity:0.4; }
 }
 .hero-heading {
-  font-family:var(--font-display); font-size:clamp(2.6rem,7vw,5.0rem);
+  font-family:var(--font-display); font-size:clamp(2.6rem,7vw,3.5rem);
   font-weight:900; color:var(--fg);
-  line-height:1.05; letter-spacing:-0.03em;
-  margin-bottom:20px; max-width:900px;
+  line-height:1.3; letter-spacing:-0.03em;
+  margin-bottom:25px; max-width:900px;
   
 }
 .hero-heading em { color:var(--accent); font-style:italic; }
@@ -267,7 +266,7 @@ button { cursor:pointer; }
 /* Brand / Scale / Position pills under headline */
 .hero-pillars {
   display:flex; align-items:center; justify-content:center;
-  gap:16px; flex-wrap:wrap; margin-bottom:24px;
+  gap:16px; flex-wrap:wrap; margin-bottom:25px; margin-top: 24px;
 }
 .hero-pill {
   display:inline-flex; align-items:center; gap:8px;
@@ -288,7 +287,7 @@ button { cursor:pointer; }
 
 .hero-sub {
   font-size:1rem; font-weight:400; color:var(--text);
-  max-width:480px; line-height:1.8; text-align:center;
+  max-width:480px; line-height:2.0;text-align:center;
 }
 
 .hero-corner { position:absolute; width:80px; height:80px; color:var(--accent-lav); }
@@ -428,8 +427,8 @@ button { cursor:pointer; }
   margin-bottom:16px; line-height:1.15; transition:color 0.3s;
 }
 .offering-row:hover .offering-content h3 { color:var(--accent); }
-.offering-content p { font-size:0.93rem; color:var(--text); line-height:1.82; max-width:400px; }
-.offering-content p strong { font-weight:600; color:var(--fg); }
+.offering-content p { font-size:0.93rem; color:var(--text); line-height:1.82; max-width:400px;  }
+.offering-content p strong { font-weight:400; color:var(--fg); }
 
 .offering-visual {
   display:flex; align-items:center; justify-content:center;
